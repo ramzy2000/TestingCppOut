@@ -1,0 +1,152 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Enums">
+      <UniqueIdentifier>{51cf20f4-b466-40d6-99fb-09deba03b87f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Enums\Headers">
+      <UniqueIdentifier>{2070440a-10db-4d77-b245-d1dcebe1f837}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Arrays">
+      <UniqueIdentifier>{f402db6d-582e-4172-ab28-b4654a4d078c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Arrays\Headers">
+      <UniqueIdentifier>{9b2c3fbc-a4e3-4d2e-9119-f344fd7d07b9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Structs">
+      <UniqueIdentifier>{860be970-a2f0-4baa-ab97-4c4f25936f5a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Structs\Headers">
+      <UniqueIdentifier>{d0257882-a2a7-4d31-996a-2bee65fbbf6f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="CstyleStrings">
+      <UniqueIdentifier>{c87dbebe-e931-4f2f-923e-f0d1598b4d1a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="CstyleStrings\Headers">
+      <UniqueIdentifier>{ea405a88-4b37-4465-a3aa-c8d7386262b3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="stringView">
+      <UniqueIdentifier>{2dc6362f-ca9a-43e3-8cce-379bdec8b9d4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="stringView\Headers">
+      <UniqueIdentifier>{e69f5826-df68-469e-87ea-c7fe139cd583}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Main">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Pointers">
+      <UniqueIdentifier>{9f23c6e5-19bf-4339-bb9a-787bbe932060}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Pointers\Headers">
+      <UniqueIdentifier>{83e59d2a-b950-46b4-9706-2abea41ddc76}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="DynamicMemory">
+      <UniqueIdentifier>{4cf4d6df-b1df-4895-a774-154efa1fb598}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="DynamicMemory\Headers">
+      <UniqueIdentifier>{85fe31c1-5b3f-4e2c-957a-54e7283ab339}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Templates">
+      <UniqueIdentifier>{5e02a0cf-b99d-404b-aad1-bcbf74ff5128}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Templates\Headers">
+      <UniqueIdentifier>{8079f54f-45cc-4e3b-ac55-74905f0a03b6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Refs">
+      <UniqueIdentifier>{aefd3040-0831-486e-b048-4afcfd44eef3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Refs\Header">
+      <UniqueIdentifier>{e30bb71c-99ab-4218-a520-c4ca2ad1644a}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>Main</Filter>
+    </ClCompile>
+    <ClCompile Include="Employee.h">
+      <Filter>Header Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Employee.cpp">
+      <Filter>Main</Filter>
+    </ClCompile>
+    <ClCompile Include="RandomNumbers.cpp">
+      <Filter>Main</Filter>
+    </ClCompile>
+    <ClCompile Include="Enums.cpp">
+      <Filter>Enums</Filter>
+    </ClCompile>
+    <ClCompile Include="Arrays.cpp">
+      <Filter>Arrays</Filter>
+    </ClCompile>
+    <ClCompile Include="ReturnStruct.cpp">
+      <Filter>Structs</Filter>
+    </ClCompile>
+    <ClCompile Include="cstyleheader.cpp">
+      <Filter>CstyleStrings</Filter>
+    </ClCompile>
+    <ClCompile Include="stringView.cpp">
+      <Filter>stringView</Filter>
+    </ClCompile>
+    <ClCompile Include="Pointers.cpp">
+      <Filter>Pointers</Filter>
+    </ClCompile>
+    <ClCompile Include="DynamicMemory.cpp">
+      <Filter>DynamicMemory</Filter>
+    </ClCompile>
+    <ClCompile Include="Templates.cpp">
+      <Filter>Templates</Filter>
+    </ClCompile>
+    <ClCompile Include="Refs.cpp">
+      <Filter>Refs</Filter>
+    </ClCompile>
+    <ClCompile Include="AllLoopsTester.cpp">
+      <Filter>Main</Filter>
+    </ClCompile>
+    <ClCompile Include="PointerPointerTester.cpp">
+      <Filter>Main</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="RandomNumbers.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Enums.h">
+      <Filter>Enums\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="Arrays.h">
+      <Filter>Arrays\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="ReturnStruct.h">
+      <Filter>Structs\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="cstyleheader.h">
+      <Filter>CstyleStrings\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="stringView.h">
+      <Filter>stringView\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="Pointers.h">
+      <Filter>Pointers\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="DynamicMemory.h">
+      <Filter>DynamicMemory\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="Templates.h">
+      <Filter>Templates\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="Refs.h">
+      <Filter>Refs\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="AllLoopsTester.h">
+      <Filter>Main</Filter>
+    </ClInclude>
+    <ClInclude Include="PointerPointerTester.h">
+      <Filter>Main</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
