@@ -143,6 +143,7 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="AllLoopsTester.cpp" />
     <ClCompile Include="cstyleheader.cpp" />
     <ClCompile Include="DynamicMemory.cpp" />
     <ClCompile Include="Employee.cpp" />
@@ -168,6 +169,7 @@
     <ClCompile Include="Templates.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="AllLoopsTester.h" />
     <ClInclude Include="Arrays.h" />
     <ClInclude Include="cstyleheader.h" />
     <ClInclude Include="DynamicMemory.h" />

@@ -4,5 +4,6 @@
 #include <iostream>
 
 void testRefs();
+void testRefs2();
 
 #endif

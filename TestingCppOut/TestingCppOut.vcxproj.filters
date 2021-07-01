@@ -104,6 +104,9 @@
     <ClCompile Include="Refs.cpp">
       <Filter>Refs</Filter>
     </ClCompile>
+    <ClCompile Include="AllLoopsTester.cpp">
+      <Filter>Main</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="RandomNumbers.h">
@@ -135,6 +138,9 @@
     </ClInclude>
     <ClInclude Include="Refs.h">
       <Filter>Refs\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="AllLoopsTester.h">
+      <Filter>Main</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>
