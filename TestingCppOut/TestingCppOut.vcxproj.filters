@@ -107,6 +107,12 @@
     <ClCompile Include="AllLoopsTester.cpp">
       <Filter>Main</Filter>
     </ClCompile>
+    <ClCompile Include="PointerPointerTester.cpp">
+      <Filter>Main</Filter>
+    </ClCompile>
+    <ClCompile Include="VoidPointerTester.cpp">
+      <Filter>Main</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="RandomNumbers.h">
@@ -140,6 +146,12 @@
       <Filter>Refs\Header</Filter>
     </ClInclude>
     <ClInclude Include="AllLoopsTester.h">
+      <Filter>Main</Filter>
+    </ClInclude>
+    <ClInclude Include="PointerPointerTester.h">
+      <Filter>Main</Filter>
+    </ClInclude>
+    <ClInclude Include="VoidPointerTester.h">
       <Filter>Main</Filter>
     </ClInclude>
   </ItemGroup>

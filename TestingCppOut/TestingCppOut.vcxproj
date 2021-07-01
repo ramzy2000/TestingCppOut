@@ -160,6 +160,7 @@
       <LanguageStandard Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">stdcpp17</LanguageStandard>
       <LanguageStandard Condition="'$(Configuration)|$(Platform)'=='Release|x64'">stdcpp17</LanguageStandard>
     </ClCompile>
+    <ClCompile Include="PointerPointerTester.cpp" />
     <ClCompile Include="Pointers.cpp" />
     <ClCompile Include="RandomNumbers.cpp" />
     <ClCompile Include="Refs.cpp" />
@@ -167,6 +168,7 @@
     <ClCompile Include="Arrays.cpp" />
     <ClCompile Include="stringView.cpp" />
     <ClCompile Include="Templates.cpp" />
+    <ClCompile Include="VoidPointerTester.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="AllLoopsTester.h" />
@@ -174,12 +176,14 @@
     <ClInclude Include="cstyleheader.h" />
     <ClInclude Include="DynamicMemory.h" />
     <ClInclude Include="Enums.h" />
+    <ClInclude Include="PointerPointerTester.h" />
     <ClInclude Include="Pointers.h" />
     <ClInclude Include="RandomNumbers.h" />
     <ClInclude Include="Refs.h" />
     <ClInclude Include="ReturnStruct.h" />
     <ClInclude Include="stringView.h" />
     <ClInclude Include="Templates.h" />
+    <ClInclude Include="VoidPointerTester.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
