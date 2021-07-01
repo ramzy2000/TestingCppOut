@@ -1,17 +1,9 @@
-int nValue;
-float fValue;
-
-struct Something
-{
-    int n;
-    float f;
-};
+#include "VoidPointerTester.h"
 
 int main()
 {
-    Something sValue;
-    void* ptr;
-    ptr = &nValue; // valid
-    ptr = &fValue; // valid
-    ptr = &sValue; // valid
+	VoidPointerTester tester;
+	tester.test();
+
+	return 0;
 }
