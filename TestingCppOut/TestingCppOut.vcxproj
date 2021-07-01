@@ -143,6 +143,7 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="AllLoopsTester.cpp" />
     <ClCompile Include="cstyleheader.cpp" />
     <ClCompile Include="DynamicMemory.cpp" />
     <ClCompile Include="Employee.cpp" />
@@ -159,6 +160,7 @@
       <LanguageStandard Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">stdcpp17</LanguageStandard>
       <LanguageStandard Condition="'$(Configuration)|$(Platform)'=='Release|x64'">stdcpp17</LanguageStandard>
     </ClCompile>
+    <ClCompile Include="PointerPointerTester.cpp" />
     <ClCompile Include="Pointers.cpp" />
     <ClCompile Include="RandomNumbers.cpp" />
     <ClCompile Include="Refs.cpp" />
@@ -168,10 +170,12 @@
     <ClCompile Include="Templates.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="AllLoopsTester.h" />
     <ClInclude Include="Arrays.h" />
     <ClInclude Include="cstyleheader.h" />
     <ClInclude Include="DynamicMemory.h" />
     <ClInclude Include="Enums.h" />
+    <ClInclude Include="PointerPointerTester.h" />
     <ClInclude Include="Pointers.h" />
     <ClInclude Include="RandomNumbers.h" />
     <ClInclude Include="Refs.h" />
